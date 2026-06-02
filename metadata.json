@@ -1,0 +1,6 @@
+{
+  "name": "POS & Inventory Management System",
+  "description": "A fully functional, enterprise-grade Point of Sale and Inventory Management System with multi-branch support, real-time stock updates, reporting, and customer loyalty tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
