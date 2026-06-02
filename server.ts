@@ -14,7 +14,7 @@ import {
 } from './src/types.ts';
 
 const app = express();
-const PORT = 3000;
+const PORT = Number(process.env.PORT) || 3000;
 const JWT_SECRET = process.env.JWT_SECRET || 'APEX-POS-ENTERPRISE-SECRET-9988';
 
 app.use(express.json({ limit: '10mb' }));
