@@ -40,4 +40,4 @@ render services          # find service ID
 render deploys create <service-id> --confirm --wait
 ```
 
-Data under `data/` is stored on a 1 GB Render disk so inventory persists across restarts.
+On the **free** plan, the filesystem is ephemeral (data resets on redeploy). For production, use a paid instance with a [persistent disk](https://render.com/docs/disks) or migrate to Render Postgres.
